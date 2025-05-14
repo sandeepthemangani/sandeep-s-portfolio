@@ -1,0 +1,29 @@
+body {
+    background-color: #000814;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .experience-container {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h2 {
+    color: #FFD60A;
+  }
+  
+  .experience-box {
+    background-color: #001D3D;
+    border-radius: 20px;
+    color: #ffffff;
+  }
+  
+  .experience-box h4 {
+    color: #FFC300;
+  }
+  
+  .experience-box p {
+    margin-bottom: 0.5rem;
+  }
+  

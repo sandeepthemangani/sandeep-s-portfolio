@@ -1,0 +1,39 @@
+body {
+    background-color: #000814;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .project-container {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h2 {
+    color: #FFD60A;
+  }
+  
+  .project-box {
+    background-color: #001D3D;
+    border-radius: 20px;
+    color: #ffffff;
+  }
+  
+  .project-box h4 {
+    color: #FFC300;
+  }
+  
+  .project-box p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-box a.btn-warning {
+    background-color: #FFD60A;
+    color: #000814;
+    border: none;
+  }
+  
+  .project-box a.btn-warning:hover {
+    background-color: #FFC300;
+  }
+  

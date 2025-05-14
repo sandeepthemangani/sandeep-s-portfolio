@@ -1,0 +1,153 @@
+/* General Reset and Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #001D3D;
+    color: #000;  /* Default text color outside the boxes is black */
+    padding-top: 0 !important; /* Remove top padding */
+    margin-top: 0 !important; /* Remove top margin */
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #003566; /* Dark blue background for navbar */
+}
+
+.navbar {
+    padding: 1rem 2rem;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: #FFD60A; /* Vibrant yellow */
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link.active {
+    color: #FFC300; /* Lighter yellow when active */
+}
+
+/* Change color on hover */
+.navbar-nav .nav-link:hover {
+    color: #FFD60A;
+}
+
+/* Responsive Navbar Toggler */
+.navbar-toggler {
+    border-color: #FFD60A;
+}
+
+.navbar-toggler-icon {
+    background-color: #FFD60A; /* Change hamburger menu color to yellow */
+}
+
+/* Navbar collapsing styles for mobile view */
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* Blog Section */
+.container-box {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #001D3D;
+    border-radius: 10px;
+}
+
+.container-box h2 {
+    font-size: 2.5rem;
+    color: #FFD60A;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Add space between each blog post */
+.blog-post {
+    background-color: #003566;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;  /* Added space between posts */
+    transition: all 0.3s ease-in-out;
+}
+
+.blog-post:hover {
+    background-color: #004B87;
+}
+
+.blog-post h3 {
+    font-size: 2rem;
+    color: #FFD60A;
+    margin-bottom: 15px;
+}
+
+.blog-post .date {
+    font-size: 1rem;
+    color: #A9A9A9;
+    margin-bottom: 15px;
+}
+
+.blog-post p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #d1d1d1;
+}
+
+.blog-post a {
+    font-size: 1.1rem;
+    color: #FFD60A;
+    display: inline-block;
+    margin-top: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.blog-post a:hover {
+    color: #FFC300;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #003566;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+/* Navigation Bar */
+.navbar {
+    background-color: #000814;
+    padding: 15px 30px;
+}
+
+.navbar .navbar-brand {
+    color: #FFD60A;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    margin-right: 20px;
+}
+
+.navbar .navbar-nav .nav-link.active {
+    color: #FFD60A;

@@ -1,0 +1,40 @@
+body {
+    background-color: #000814;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.certification-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.certification-box {
+    background-color: #001D3D;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.certification-box h2 {
+    color: #FFD60A;
+}
+
+.certification-item h4 {
+    color: #FFC300;
+}
+
+.certification-item p {
+    font-size: 1rem;
+}
+
+.certification-box a.btn-warning {
+    background-color: #FFD60A;
+    border: none;
+    color: #000814;
+}
+
+.certification-box a.btn-warning:hover {
+    background-color: #FFC300;
+}
